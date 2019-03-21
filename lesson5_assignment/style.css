@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document created by Mackenzie Shaffer, Spring 2019*/
+
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 15px;
+	line-height: 2em;
+	color: #1B404F;
+	background-color: #FFFFFF;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #000000;
+}
+h1 {
+	font-size: 40px;
+	padding: 2px 0;
+	font-variant: initial;
+	letter-spacing: .2em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 30px;
+	padding: 8px;
+	font-variant: initial;
+	letter-spacing: 0.2em;
+	background-color: #137A86;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #137A86;
+	padding: 4px 0;
+	font-variant: initial;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #2E3B4F;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #2E3B4F;
+	text-decoration: none;
+}
+a:hover {
+	color: #137A86;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid 1px black;
+}
+td {
+	padding: 6px;
+	border: solid black 1px;
+}
+th {
+	font-weight: bold;
+	background-color: black;
+	text-align: center;
+	padding: 6px;
+	border: solid black 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #137A86 1px;
+}
+
+img {
+	border: solid #137A86 1px;
+
+}
+
+iframe {
+	border: solid #137A86 1px;
+	padding: 8px;
+	margin: 8px;
+}
