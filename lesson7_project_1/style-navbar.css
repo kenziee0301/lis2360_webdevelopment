@@ -21,7 +21,7 @@ ul#menu li {
 ul#menu li a.button {
 	background-color: #eee; /* button/tab color */
 	color: #2E3B4F; /* font color */
-	font-size: 1.1em;
+	font-size: 1.2em;
 	text-decoration: none; /* removes the link underline */
 	/* the padding define the size of the buttons */
 	/* increase bottom padding for tabs with hidden bottoms so tab text can be seen*/
